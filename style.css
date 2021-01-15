@@ -1,18 +1,29 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 
-/* header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column: 1 / 2;
-    height: 75px;
-} */
+
+body{
+    width: 1510px;
+    height: 1600px;
+    width: auto;
+}
 
 #logo {
   float: left;
   margin-top: 7px;
 }
+
+
+main
+{
+    width: 100%;
+    height: 100%;
+}
+
+
 
 header h1 {
     display: inline;
@@ -38,44 +49,56 @@ header span {
     margin-left: 50px;
     margin-top: 0px;
     margin-bottom: 0px;
-   /* padding-top: 10px; */
 
 }
 
 footer{
-    background-color: black;
+    background-color: white;
+}
+#imgf{
+    float: left;
 }
 
-/* body {
-   background-color: gray;
+footer h1{
+    margin-left: 5px;
+    display: inline;
+}
+#flogo{
 
-} */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-/* header {
-   position: relative;
-   /* bottom: 5px ;
-   background-color: white;
-   height: 75px;
-   width: 100%; */
-   /* top: auto; */
+button{
+    display: block;
+    float: right;
+    margin-right: 30px;
+    background-color: #cc7351;
+    color: white;
+    text-transform: uppercase;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -60px;
+}
 
-/* } */ 
+footer p{
+    text-align: center;
+    line-height: 4px;
+    font-family: 'Lora', serif;
+    color: gray;
+}
 
-/* header h1 {
-    position: absolute;
-    font-family: 'Lobster', cursive;
-    margin-left: 50px;
-    font-size: 45px; 
-    margin-top: 5px;
-    /* top: 0px; */
-    
+footer span{
+    display: block;
+    margin-top: 0px;
+    margin-left: 5px;
+    font-size: larger;
+    font-family: 'Lora', serif;
 
-/* } */ 
-
-/* #logo {
-     position: relative; 
-     margin-top: 15px;
-} */
+}
 
  nav { 
     margin-top: 20px;
@@ -84,14 +107,128 @@ footer{
 } 
 
 #bar{
-    width: 500px;
+    width: 1500px;
+    height: 10px;
 }
 
-/* header h5 {
-   margin-left:  50px ;
-   font-family: Arial, Helvetica, sans-serif ;
-   text-transform: uppercase;
-   font-size: small;
-   color: grey;
-   margin-top: 5px;
-} */
+
+main h1{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+main h3{
+    font-family: 'Fjalla One', sans-serif;
+    margin-left: 5px;
+    margin-top: 1px;
+    color: grey;
+    line-height: 0.5px;
+    font-size: small;
+    text-transform: uppercase;
+}
+
+#print{
+    float: right;
+    margin-right: auto;
+}
+
+#print-p
+{
+    float: right;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: grey;
+    margin-top: auto;
+    display: inline-block;
+    font-size: x-small;
+}
+
+.para-div{
+    display: inline-block;
+    width: 986px;
+}
+
+
+
+#main-pic{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.para{
+    text-align: left;
+    white-space: pre;
+    width: 100%;
+   margin-left: 15px;
+   color: gray;
+   font-weight: bold;
+   font-size: large;
+}
+
+.div-form{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; */
+    white-space: nowrap;
+    background-image: url(lab-assets/list-bg.png);
+    background-size:1500px;
+    width: 1500px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 220px;
+    padding: 0;
+    box-shadow:0 5px gray;
+    color: #555;
+    font-size: 22px;
+    font-family: courier, monospace;
+}
+
+.div-form input, label{
+
+    margin-top: 15px;
+}
+
+
+
+.strikethrough{
+    text-decoration:line-through;
+  }
+
+.div-left{
+    margin-left: 75px;
+    
+}
+
+ 
+
+
+
+label{
+    text-decoration: none;
+    border: none;
+}
+
+#main-span{
+    display: block; 
+    font-size: 10px;
+    text-transform: uppercase;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -23px;
+}
+
+
+
+#bar2{
+    margin-top: 50px;
+    width: 100%;
+    height: 10px;
+}
+
+
+
+#bar2{
+    margin-top: auto;
+    width: 1500px;
+    height: 10px;
+}
