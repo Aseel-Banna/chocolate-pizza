@@ -190,8 +190,12 @@ main h3{
 
 
 
-.strikethrough{
+/* .strikethrough{
     text-decoration:line-through;
+  } */
+
+input[type=checkbox]:checked + label.strikethrough{
+    text-decoration: line-through;
   }
 
 .div-left{
